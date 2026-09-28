@@ -15,3 +15,8 @@
 | ground_scorch | not uploaded | - |
 
 Decal ID -> image ID: `InsertService:LoadAsset(decalId)` in Studio, read the Decal's Texture.
+
+## Status (Sep 28)
+- All 9 load in personalfund's game after adding personalfund as a collaborator on the **Image** assets (not the Decals).
+- `ContentProvider:PreloadAsync` wrongly reports Failure for these; test with an ImageLabel's `IsLoaded` instead.
+- Extra public texture in use: Creator Store "Light Rays" image 101267161684975 (burst rays).
