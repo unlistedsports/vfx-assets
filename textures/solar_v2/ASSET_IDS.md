@@ -11,8 +11,8 @@
 | sigil_hd | 114043893779421 | 98238406476430 |
 | impact_cracks | 129687976287030 | 77910263040610 |
 | beam_scroll | 76595653526175 | 104723266600659 |
-| smoke_8x8 | not uploaded | - |
-| ground_scorch | not uploaded | - |
+| smoke_8x8 | - | 112094987729177 |
+| ground_scorch | - | 73512981979770 |
 
 Decal ID -> image ID: `InsertService:LoadAsset(decalId)` in Studio, read the Decal's Texture.
 
