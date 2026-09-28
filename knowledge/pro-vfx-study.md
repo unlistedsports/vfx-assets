@@ -50,3 +50,17 @@ fire flipbooks 4x4: 11395089850 / 11395090403 / 11395118687.
 - Big hero sprites: one large flipbook, held opaque, fast fade at the end.
 - Use ZOffset deliberately to stack layers.
 - Prefer meshes for slashes, spirals, shockwaves; particles for specks, smoke, sparks.
+
+# Study #2: Eldritch Blast motion (Ryan Gee, ArtStation), frame by frame
+Frames sampled from the 1920x1080 source videos by seeking the video and drawing contact sheets.
+- **The flash lasts about one frame.** White only at the peak, then it drops to a dim state within ~0.15 s. Never hold a bright flash.
+- **The wound.** After the flash, a crisp hot ring around a **dark core** hangs in the air for 2+ s. That's the read that sticks.
+- **Beams are hairline.** A white-hot core with a thin colored halo that lives 2-3 frames, then leaves a **dark smoky trail** that lingers.
+- **Black debris settles on the floor** and stays. Specks don't vanish mid-air.
+- **Faint thin concentric shock rings** sit on the ground, barely visible.
+- **Crescent slashes** (curved color + black arcs) at the hit and **orbiting dark claws** around the caster.
+- **The stage is mid-grey and lit**, not black. Effects fill a small part of the frame, and dark shapes only read against grey.
+- Palette: one hue family (violet → magenta rim), white only at peaks, a tiny complementary accent (orange).
+
+Applied to Solar Verdict v4: flash span 0.75 → 0.5 with an outCubic drop, a hanging wound ring (dark core + hot ring + white rim),
+DarkWisps along the pillar, GroundSpecks lying flat on the floor, fireballs ×0.62, Neon grey backdrop walls (lit grey gets crushed by the grade's contrast).
